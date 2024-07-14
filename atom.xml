@@ -6,7 +6,7 @@
   <link href="https://bookgamer.github.io/atom.xml" rel="self"/>
   
   <link href="https://bookgamer.github.io/"/>
-  <updated>2024-07-14T07:57:07.605Z</updated>
+  <updated>2024-07-14T09:03:19.315Z</updated>
   <id>https://bookgamer.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>适合Python零基础，不需要有任何Python经验)Python对接OpenAI API GTP3.5官方接口实现智能QQ机器人</title>
+    <link href="https://bookgamer.github.io/2024/07/14/%E6%8E%A5%E5%85%A5GPT/"/>
+    <id>https://bookgamer.github.io/2024/07/14/%E6%8E%A5%E5%85%A5GPT/</id>
+    <published>2024-07-14T08:03:50.468Z</published>
+    <updated>2024-07-14T09:03:19.315Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="点击跳转原文-简单说明一下情况"><a href="#点击跳转原文-简单说明一下情况" class="headerlink" title="点击跳转原文(简单说明一下情况)"></a>点击跳转原文(简单说明一下情况)</h2><p><a href="https://lucent.blog/?p=118">原文链接</a><br>以下用的所有图片都是本人的。所以水印就不去了，话不多说，开始正文</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>首先就是下载这个链接里面大佬提供的Python代码和一些Windows脚本<br><a href="https://dayzwiki.oss-cn-shanghai.aliyuncs.com/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%98%E6%96%B9API3.5%E7%89%88202303031307.zip">代码下载</a><br>还有一个是Windows封装版就是配置文件改好之后，不用安转Python环境和依赖，但是因为本人没有使用过，所以在这里不做评价，所以本篇文章还是详细说明代码版<br><a href="https://dayzwiki.oss-cn-shanghai.aliyuncs.com/QQ%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AE%98%E6%96%B9API3.5%E5%B0%81%E8%A3%85%E7%89%88202303031305.zip">Windows封装版</a><br>首先也就是最重要的，就是你要有个OpenAI的账号，你可以自己注册，也可以自己去某宝买，<br>在这里本人建议还是去买，懂得都懂,这里就不详细说了，要是想注册的话，可以去网上找一下教程，很多的</p><h2 id="申请api-key"><a href="#申请api-key" class="headerlink" title="申请api-key"></a>申请api-key</h2><p>首先你得登录上你得账号<br><a href="https://beta.openai.com/login/">openai账号登录</a><br>然后就是点击下面传送门直接过去获取key<br><a href="https://beta.openai.com/account/api-keys">获取api-key</a><br><img src="/img/gpt1.png"></p><h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>首先就是先把代码版下载的解压，解压之后会得到：<br><img src="/img/gpt2.png"><br>然后点击打开：<br><img src="/img/gpt3.png"><br>最后一个文件，也不用管，有没有都行<br>首先打开py文件夹，下面图片文字有点多，但是请仔细观看，注意这张图片结合下面py文件夹Windows操作理解<br><img src="/img/gpt4.png"><br>这个是linux上安装依赖的命令，注意在Py目录下面执行就好了</p><pre><code class="highlight sh">pip3 install -r requirements.txt</code></pre><p>然后打开config.json文件：<br><img src="/img/gpt5.png"><br>保存退出，<br>然后打开QBot文件夹<br><img src="/img/gpt6.png"><br>首先打开config.yml文件，并且按照下面提示修改<br><img src="/img/gpt7.png"><br>剩下的，如果是小白就不用管了，直接保存就好了，大佬的话，想了解就看看吧，因为我也是个Python小白， 所以我就直接保存退出了<br>然后在打开device.json文件，修改其中的：<br><img src="/img/gpt8.png"><br>保存返回，打开py文件夹<br>下面操作的前提是你已经有了Python3环境并且配置环境变量好了</p><h2 id="py文件夹下面的Windows操作方式"><a href="#py文件夹下面的Windows操作方式" class="headerlink" title="py文件夹下面的Windows操作方式"></a>py文件夹下面的Windows操作方式</h2><p><img src="/img/gpt9.png"><br>当你点击2之后，看到：<br><img src="/img/gpt10.png"><br>就证明成功了。</p><h2 id="py文件夹下面的linux操作方式"><a href="#py文件夹下面的linux操作方式" class="headerlink" title="py文件夹下面的linux操作方式"></a>py文件夹下面的linux操作方式</h2><pre><code class="highlight sh"><span class="comment"># 前台运行</span>python3 QBot.py<span class="comment"># 后台运行</span><span class="built_in">nohup</span> python3 QBot.py &amp;</code></pre><p>然后打开 QBot 文件夹</p><h2 id="QBot-文件夹下面的windows操作"><a href="#QBot-文件夹下面的windows操作" class="headerlink" title="QBot 文件夹下面的windows操作"></a>QBot 文件夹下面的windows操作</h2><p>Windows 双击 go-cqhttp.bat 即可启动，如果你配置文件填写了密码，那么进行以下操作<br><img src="/img/gpt11.png"><br>选择2，进行扫码验证，这还是要跟电脑连接同一个无线网，当然要是不在同一个网络就选择1，<br>进行滑条验证，他会生成一个链接，复制发送到手机，然后手机浏览器打开进行验证就好了<br>如果你配置文件没有填写密码，那么就是：<br><img src="/img/gpt12.png"><br>手机进行扫码就好了，要求跟上面的一样，要在同一个无线网， 看到：<br><img src="/img/gpt13.png"><br>这样就算成功了，记得不要关闭这俩窗口，py文件夹下面打开的那个窗口也不要关闭</p><h2 id="QBot-文件夹下面的linux操作方式"><a href="#QBot-文件夹下面的linux操作方式" class="headerlink" title="QBot 文件夹下面的linux操作方式"></a>QBot 文件夹下面的linux操作方式</h2><pre><code class="highlight sh"><span class="comment"># 前台运行命令</span>./go-cqhttp<span class="comment"># 后台运行命令</span><span class="built_in">nohup</span> ./go-cqhttp &gt; logs/`<span class="built_in">date</span> -d yesterday +%Y%m%d`.<span class="built_in">log</span> 2&gt;&amp;1 &amp;</code></pre><h3 id="注意这里：linux可能会提示你没有操作权限，那么在进行这行linux命令"><a href="#注意这里：linux可能会提示你没有操作权限，那么在进行这行linux命令" class="headerlink" title="注意这里：linux可能会提示你没有操作权限，那么在进行这行linux命令"></a>注意这里：linux可能会提示你没有操作权限，那么在进行这行linux命令</h3><pre><code class="highlight sh"><span class="built_in">chmod</span> 777 go-cqhttp</code></pre><p>在执行上面的linux操作就可以了，<br>然后就可以进行测试了，找到你的测试QQ号：<br><img src="/img/gpt14.png"><br>这文章到这里就结束了，文章如果有问题随时私信我，进行修改哦，有啥问题欢迎交流，点击左下角的就可以跟我聊天，也可以去留言板，进行留言</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;点击跳转原文-简单说明一下情况&quot;&gt;&lt;a href=&quot;#点击跳转原文-简单说明一下情况&quot; class=&quot;headerlink&quot; title=&quot;点击跳转原文(简单说明一下情况)&quot;&gt;&lt;/a&gt;点击跳转原文(简单说明一下情况)&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https:/</summary>
+      
+    
+    
+    
+    <category term="AI" scheme="https://bookgamer.github.io/categories/AI/"/>
+    
+    
+    <category term="ChatGpt" scheme="https://bookgamer.github.io/tags/ChatGpt/"/>
+    
+    <category term="Python" scheme="https://bookgamer.github.io/tags/Python/"/>
+    
+    <category term="QQ" scheme="https://bookgamer.github.io/tags/QQ/"/>
+    
+  </entry>
   
   <entry>
     <title>影视上新</title>

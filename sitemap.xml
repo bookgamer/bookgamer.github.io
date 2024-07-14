@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://bookgamer.github.io/2024/07/14/%E6%8E%A5%E5%85%A5GPT/</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://bookgamer.github.io/2024/07/06/%E5%BD%B1%E8%A7%86/</loc>
     
     <lastmod>2024-07-14</lastmod>
@@ -159,10 +168,38 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://bookgamer.github.io/tags/ChatGpt/</loc>
+    <lastmod>2024-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/tags/Python/</loc>
+    <lastmod>2024-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/tags/QQ/</loc>
+    <lastmod>2024-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://bookgamer.github.io/categories/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2024-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/categories/AI/</loc>
     <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
