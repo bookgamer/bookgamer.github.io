@@ -2,7 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/KaiJia/index.html</loc>
+    <loc>https://bookgamer.github.io/2024/06/28/hello-world/</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/2024/07/06/%E5%BD%B1%E8%A7%86/</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/2024/06/30/%E7%BD%91%E7%AB%99%E5%8D%87%E7%BA%A7/</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/2024/06/29/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%9C%AC%E7%BD%91%E7%AB%99/</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/categories/index.html</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/tags/index.html</loc>
+    
+    <lastmod>2024-07-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/xiong/index.html</loc>
+    
+    <lastmod>2024-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bookgamer.github.io/KaiJia/index.html</loc>
     
     <lastmod>2024-07-07</lastmod>
     
@@ -11,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/movies/index.html</loc>
+    <loc>https://bookgamer.github.io/movies/index.html</loc>
     
     <lastmod>2024-07-07</lastmod>
     
@@ -20,25 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/xiong/index.html</loc>
-    
-    <lastmod>2024-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2024/07/06/%E5%BD%B1%E8%A7%86/</loc>
-    
-    <lastmod>2024-07-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/photos/index.html</loc>
+    <loc>https://bookgamer.github.io/photos/index.html</loc>
     
     <lastmod>2024-07-02</lastmod>
     
@@ -47,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/music/index.html</loc>
+    <loc>https://bookgamer.github.io/music/index.html</loc>
     
     <lastmod>2024-06-30</lastmod>
     
@@ -56,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/06/30/%E7%BD%91%E7%AB%99%E5%8D%87%E7%BA%A7/</loc>
+    <loc>https://bookgamer.github.io/about/index.html</loc>
     
     <lastmod>2024-06-30</lastmod>
     
@@ -65,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/06/28/hello-world/</loc>
+    <loc>https://bookgamer.github.io/comment/index.html</loc>
     
     <lastmod>2024-06-30</lastmod>
     
@@ -74,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2024/06/29/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%9C%AC%E7%BD%91%E7%AB%99/</loc>
+    <loc>https://bookgamer.github.io/links/index.html</loc>
     
     <lastmod>2024-06-30</lastmod>
     
@@ -83,52 +128,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
-    
-    <lastmod>2024-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/comment/index.html</loc>
-    
-    <lastmod>2024-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/links/index.html</loc>
-    
-    <lastmod>2024-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/shuoshuo/index.html</loc>
-    
-    <lastmod>2024-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2024-06-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://bookgamer.github.io/shuoshuo/index.html</loc>
     
     <lastmod>2024-06-30</lastmod>
     
@@ -138,20 +138,27 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
-    <lastmod>2024-07-07</lastmod>
+    <loc>https://bookgamer.github.io/</loc>
+    <lastmod>2024-07-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://example.com/tags/%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2024-07-07</lastmod>
+    <loc>https://bookgamer.github.io/tags/%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2024-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
+  
+  <url>
+    <loc>https://bookgamer.github.io/categories/%E4%BB%8B%E7%BB%8D/</loc>
+    <lastmod>2024-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
