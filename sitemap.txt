@@ -1,3 +1,5 @@
+https://bookgamer.github.io/movies/index.html
+https://bookgamer.github.io/aiqing/index.html
 https://bookgamer.github.io/shuoshuo/index.html
 https://bookgamer.github.io/2024/07/14/%E6%8E%A5%E5%85%A5GPT/
 https://bookgamer.github.io/2024/07/06/%E5%BD%B1%E8%A7%86/
@@ -8,7 +10,6 @@ https://bookgamer.github.io/categories/index.html
 https://bookgamer.github.io/tags/index.html
 https://bookgamer.github.io/xiong/index.html
 https://bookgamer.github.io/KaiJia/index.html
-https://bookgamer.github.io/movies/index.html
 https://bookgamer.github.io/photos/index.html
 https://bookgamer.github.io/music/index.html
 https://bookgamer.github.io/about/index.html
