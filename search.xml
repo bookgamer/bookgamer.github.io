@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>搭建聊天机器人（以微信为例）</title>
+      <link href="/2024/09/13/AI/"/>
+      <url>/2024/09/13/AI/</url>
+      
+        <content type="html"><![CDATA[<h2 id="微信聊天机器人搭建——视频讲解说明"><a href="#微信聊天机器人搭建——视频讲解说明" class="headerlink" title="微信聊天机器人搭建——视频讲解说明"></a>微信聊天机器人搭建——视频讲解说明</h2><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113079979347853&bvid=BV19kpcekEJY&cid=25739725387&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ai </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用docker搭建rustdesk中继服务器，完全替代向日葵，todesk</title>
       <link href="/2024/08/17/rustdesk/"/>
       <url>/2024/08/17/rustdesk/</url>

@@ -6,7 +6,7 @@
   <link href="https://bookgamer.github.io/atom.xml" rel="self"/>
   
   <link href="https://bookgamer.github.io/"/>
-  <updated>2024-08-17T14:02:40.020Z</updated>
+  <updated>2024-09-13T15:48:06.699Z</updated>
   <id>https://bookgamer.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建聊天机器人（以微信为例）</title>
+    <link href="https://bookgamer.github.io/2024/09/13/AI/"/>
+    <id>https://bookgamer.github.io/2024/09/13/AI/</id>
+    <published>2024-09-13T15:44:40.721Z</published>
+    <updated>2024-09-13T15:48:06.699Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="微信聊天机器人搭建——视频讲解说明"><a href="#微信聊天机器人搭建——视频讲解说明" class="headerlink" title="微信聊天机器人搭建——视频讲解说明"></a>微信聊天机器人搭建——视频讲解说明</h2><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113079979347853&bvid=BV19kpcekEJY&cid=25739725387&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;微信聊天机器人搭建——视频讲解说明&quot;&gt;&lt;a href=&quot;#微信聊天机器人搭建——视频讲解说明&quot; class=&quot;headerlink&quot; title=&quot;微信聊天机器人搭建——视频讲解说明&quot;&gt;&lt;/a&gt;微信聊天机器人搭建——视频讲解说明&lt;/h2&gt;&lt;iframe src=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="ai" scheme="https://bookgamer.github.io/tags/ai/"/>
+    
+  </entry>
   
   <entry>
     <title>使用docker搭建rustdesk中继服务器，完全替代向日葵，todesk</title>
